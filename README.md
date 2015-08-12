@@ -1,2 +1,2 @@
-# git-couse
+# git-course
 learning to use git
