@@ -1,0 +1,9 @@
+1. acessar a pasta do git;
+2. clonar repositório (git clone "HTTPS");
+3. faz o que quiser;
+4. adiciona modificações (git add "nome do arquivo ou pasta");
+5. comita as modificações (git commit -m ""cometários"");
+6. envia as modificações para diretório master, net (git push origin master (escolher a brench);
+
+* caso o projeto não seja meu, deve-se fazer um fork, seguir os passos anteriores e então fazer um "pull request" (net), respectivamente;
+
