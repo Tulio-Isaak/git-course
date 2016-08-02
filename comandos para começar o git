@@ -7,3 +7,34 @@
 
 * caso o projeto não seja meu, deve-se fazer um fork, seguir os passos anteriores e então fazer um "pull request" (net), respectivamente;
 
+	ALL GIT COMMANDS: 
+
+$ git config --global user.name "name"				--> who gets credit for change;
+
+$ git config --global user.email yourEmail			--> what email you use;
+
+$ git congit --global color .ui true				--> pretty command line colors;
+
+	STARTING A REPO
+
+$ mkdir dirname 									--> create a repo;
+
+$ cd store											--> enters the repository;
+
+$ git init 											--> Initialized empty git repository in /Users/directory/dirname/.git/ (git metadata is stored here);
+
+$ git status 										--> to check what's chenged since last commit; also say in which branch is;
+
+$ git add README.txt								--> will put "README.TXT" in the staging area;
+	$ git add <list of files> 							--> add more than one files to stagin area;
+	$ git add --all 									--> add all files to stagin area;
+	$ git add *.txt 									--> add all files finished with .txt;
+	$ git add docs/*.txt 								--> add all txt files in docs directory;
+	$ git add docs/ 									--> add all files in docs directory;
+	$ git add "*.txt"									--> add all .txt files in the whole project;
+
+$ git commit -m "Creat a README."					--> put in time line (branch) those things that were add to stagin are and send some massage about these things;
+
+	GIT TIMELINE HISTORY
+
+$ git log											--> list all commits;
