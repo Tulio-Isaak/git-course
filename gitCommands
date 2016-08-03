@@ -1,0 +1,56 @@
+1. asccess de git folder and create a project or acess you project and get HTTPS's project;
+2. clone repository: $ git clone "HTTPS";
+3. make your chenges;
+4. $ git add "file's name";
+5. $ git commit -m ""comments"";
+6. $ git push origin <branch> --> if it was not some clone or merge and push, need to use: git push --allow-unrelated-histories origin <branch>
+
+* If the project is not mine, must make a fork, follow the previous steps and then do a "pull request" (net), respectively;
+
+																		ALL GIT COMMANDS: 
+
+$ git config --global user.name "name"											--> who gets credit for change;
+
+$ git config --global user.email yourEmail										--> what email you use;
+
+$ git congit --global color .ui true											--> pretty command line colors;
+
+	STARTING A REPO
+
+$ mkdir dirname 																--> create a repo;
+
+$ cd store																		--> enters the repository;
+
+$ git init 																		--> Initialized empty git repository in /Users/directory/dirname/.git/ (git metadata is stored here);
+
+$ git status 																	--> to check what's chenged since last commit; also say in which branch is;
+
+$ git add README.txt															--> will put "README.TXT" in the staging area;
+	$ git add <list of files> 														--> add more than one files to stagin area;
+	$ git add --all 																--> add all files to stagin area;
+	$ git add *.txt 																--> add all files finished with .txt;
+	$ git add docs/*.txt 															--> add all txt files in docs directory;
+	$ git add docs/ 																--> add all files in docs directory;
+	$ git add "*.txt"																--> add all .txt files in the whole project;
+
+$ git commit -m "Creat a README."												--> put in time line (branch) those things that were add to stagin are and send some massage about these things;
+
+	GIT TIMELINE HISTORY
+
+$ git log																		--> list all commits;
+
+	REMOTE REPOSITORIES
+
+$ git remote -v 																--> list existing remotes;
+	$ git remote show <remote name>													--> list de URL for the remote repository as well as the trecking branch information. This command shows which branch is automatically pushed when you run "git push" while on certain branches;
+
+
+$ git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git 	--> set remote url or change remote's URL from SSH to HTTPS
+
+$ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git 		--> set remote url or change remote's URL from HTTPS to SSH
+
+$ git remote add <shortname> <url>												--> add a new remote repository. With a shortname can reference easily;
+
+$ git pull 																		--> it will automatically merge in the master branch on the remote after it fetches all the remotes references. It also lists all the remote references it has pulled dow;
+
+$ git remote rename name1 name2													--> it will chenge all remote-tracnking branches names for name1 to name2;
