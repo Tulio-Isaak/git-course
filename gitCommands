@@ -8,7 +8,7 @@
 * If the project is not mine, must make a fork, follow the previous steps and then do a "pull request" (net), respectively;
 * make the removal of files by git using $ git rm <file>;
 
-																		ALL GIT COMMANDS: 
+****************************************************************ALL GIT COMMANDS:*****************************************************************
 
 $ git config --global user.name "name"											--> who gets credit for change;
 
@@ -18,7 +18,8 @@ $ git congit --global color .ui true											--> pretty command line colors;
 
 $ git config --global color.interactive auto
 
-	STARTING A REPO
+----STARTING A REPO-------------------------------------------------------------------------------------------------------------------------------
+$ pwd 																			--> It shows the current directory and its path;
 
 $ mkdir dirname 																--> create a repo;
 
@@ -38,11 +39,11 @@ $ git add README.txt															--> will put "README.TXT" in the staging area
 
 $ git commit -m "Creat a README."												--> put in time line (branch) those things that were add to stagin are and send some massage about these things;
 
-	GIT TIMELINE HISTORY
+----GIT TIMELINE HISTORY--------------------------------------------------------------------------------------------------------------------------
 
 $ git log																		--> list all commits;
 
-	REMOTE REPOSITORIES
+----REMOTE REPOSITORIES---------------------------------------------------------------------------------------------------------------------------
 
 $ git remote -v 																--> list existing remotes;
 	$ git remote show <remote name>													--> list de URL for the remote repository as well as the trecking branch information. This command shows which branch is automatically pushed when you run "git push" while on certain branches;
@@ -57,3 +58,17 @@ $ git remote add <shortname> <url>												--> add a new remote repository. W
 $ git pull 																		--> it will automatically merge in the master branch on the remote after it fetches all the remotes references. It also lists all the remote references it has pulled dow;
 
 $ git remote rename name1 name2													--> it will chenge all remote-tracnking branches names for name1 to name2;
+
+----BRANCHING-------------------------------------------------------------------------------------------------------------------------------------
+
+$ git branches 																--> show all your's branches;
+
+$ git checkout <branch>														--> switched to a new branch. It's indicate It is indicated to have a clean staging area;
+	$ git checkout -b <branch>
+
+$ git branch <branch name>													--> creat a new branch;
+
+----MERGING---------------------------------------------------------------------------------------------------------------------------------------
+
+$ git merge <branch>														--> it will merge branch with currently branch. If you'll want merg with branch master, meke a "$ git checkou master" than meke merge;
+
