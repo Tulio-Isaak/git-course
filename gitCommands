@@ -6,6 +6,7 @@
 6. $ git push origin <branch> --> if it was not some clone or merge and push, need to use: git push --allow-unrelated-histories origin <branch>
 
 * If the project is not mine, must make a fork, follow the previous steps and then do a "pull request" (net), respectively;
+* make the removal of files by git using $ git rm <file>;
 
 																		ALL GIT COMMANDS: 
 
