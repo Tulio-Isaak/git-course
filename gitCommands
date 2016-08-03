@@ -1,3 +1,7 @@
+git --> It is a version control system (VCS);
+
+github --> it is a colaborate platform; 
+
 1. asccess de git folder and create a project or acess you project and get HTTPS's project;
 2. clone repository: $ git clone "HTTPS";
 3. make your chenges;
